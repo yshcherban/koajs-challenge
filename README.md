@@ -2,7 +2,7 @@
 
 Simple CRUD RESTAPI based on koajs
 
-Database: SQLite
+Database: SQLite<br />
 Caching: node-cache
 
 ## Installation
