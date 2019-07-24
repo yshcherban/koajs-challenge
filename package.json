@@ -1,0 +1,25 @@
+{
+  "name": "koa-app",
+  "version": "1.0.0",
+  "description": "simple crud api based on koajs",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node ./migrations/books.sql.js"
+  },
+  "keywords": [
+    "nodejs",
+    "koajs",
+    "sql",
+    "crud"
+  ],
+  "author": "Yaroslav Shcherban",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/json-filter": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "node-cache": "^4.2.0",
+    "sqlite3": "^4.0.9"
+  }
+}
